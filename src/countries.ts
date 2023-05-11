@@ -1,4 +1,4 @@
-interface Country {
+export interface Country {
   confirmed: number;
   recovered: number;
   deaths: number;
@@ -15,7 +15,7 @@ interface Country {
   lng: number;
 }
 
-const countries: Country[] = [
+export const countries: Country[] = [
   {
     confirmed: 14236,
     recovered: 13509,
@@ -2545,5 +2545,3 @@ const countries: Country[] = [
     lng: 30.2176,
   },
 ];
-
-export default countries;
